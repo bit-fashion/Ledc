@@ -79,7 +79,7 @@ void slice(std::ifstream *fs, const std::string &name, size_t size)
  */
 void mergers(const std::string &first)
 {
-
+    // TODO
 }
 
 /**
@@ -105,7 +105,7 @@ int main(int argc, char **argv)
     printf("    open [%s] file success\n", name);
 
     fs.seekg(0, std::ios::end);
-	size_t size = fs.tellg();
+    size_t size = fs.tellg();
     fs.seekg(0, std::ios::beg);
 
     double uintsiz = ((double) size / (1024 * 1024 * 1024));
